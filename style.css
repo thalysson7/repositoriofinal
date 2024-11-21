@@ -1,0 +1,46 @@
+/* Importando a fonte personalizada */
+@import (https://fonts.google.com/share?selection.family=Host+Grotesk:ital,wght@0,300..800;1,300..800);
+/* Variáveis de cores */
+:root {
+--cor-principal: #6E859F; /* Cinza */
+--cor-secundaria: #284260; /* Azul-escuro */
+--cor-destaque: #000000; /* Roxo */
+}
+
+/* Aplicando a fonte ao corpo da página */
+body {
+font-family: 'Chakra Petch', sans-serif;
+margin: 20px;
+background-color: #f5f5f5; /* Cor de fundo clara */
+}
+/* Estilizando o cabeçalho */
+header {
+text-align: center;
+margin-bottom: 40px;
+}
+/* Estilizando títulos */
+h1, h2, h5 {
+color: var(--cor-secundaria); /* Cor azul-escuro */
+font-weight: 700; /* Negrito */
+}
+/* Estilizando os textos dos projetos */
+.projeto-texto {
+color: var(--cor-principal); /* Cor cinza */
+font-size: 1.1em;
+}
+/* Estilizando o link no rodapé */
+footer a {
+color: var(--cor-principal); /* Cor cinza */
+text-decoration: none;
+font-weight: 600;
+}
+/* Efeito hover no link */
+footer a:hover {
+color: var(--cor-destaque); /* Cor roxa */
+}
+/* Estilizando o rodapé */
+footer {
+text-align: center;
+margin-top: 50px;
+font-size: 0.9em;
+}
